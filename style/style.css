@@ -39,7 +39,7 @@ i{
 header{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url(../images/headerback.jpg);
+    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url(../images/headerback-min.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     clip-path:polygon(100% 0%,100% 77%,50% 100%,0 75%,0 0);
@@ -480,3 +480,31 @@ form:hover .form-button button{
 }
 
 /*********** Footer css End *********/
+
+@media only screen and (max-width:7992px){   
+    
+    
+}
+
+
+@media only screen and (max-width:786px){
+    .happyclinets{
+        margin-top: 370px;
+    }   
+    
+    
+}
+
+@media only screen and (max-width:480px){
+    
+    
+    
+    .happyclinets{
+        margin-top: 790px;
+    }   
+    
+    .contactus{
+        margin-top: 550px;
+        padding-left: 40px;
+    }
+}
